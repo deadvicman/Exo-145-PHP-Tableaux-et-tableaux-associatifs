@@ -1,34 +1,26 @@
 <?php
 
-// Premiere ligne
+// Compléter le code ci dessous pour afficher la longueur de la chaine de caracteres
 
-$fruits = array("Apple", "Banana" "Orange");
-echo ;
+echo strlen ("google");
 
-//Deuxieme ligne
+echo"<br><br>"; //Decommentez les <br> pour tester l'affichage lorsque vous aurez plusieurs instructions
 
+// Compléter le code ci dessous pour inverser la chaine de caractere
 
-$age = array("Peter" "35", "Ben" "37", "Joe" "43");
+echo strrev("anticonstitutionellement");
 
-echo "<br><br>Ben is " .  . " years old.<br><br>";
+// Et si vous testiez également avec votre prénom ?
+echo"<br><br>";
+echo strrev('Victorien');
 
-($age  $x  $y) {
-    echo "<br>Key=" .  . ", Value=" . ;
-}
+echo"<br><br>";
 
+// Compléter le code ci dessous pour remplacer le mot ok par non
+$oldtxt = "Ok Google!";
+$newtxt = ("non google");
 
-
-//Troisieme ligne
-
-$colors = array("red", "green", "blue", "yellow");
-;
-
-
-// Quatrieme ligne
-
-$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-;
-
+echo $newtxt;
 
 
 
